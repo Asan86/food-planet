@@ -1,0 +1,85 @@
+.logo_outher {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo a {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #254f4c;
+}
+
+.logo span {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d3130;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  padding: 5px;
+}
+
+.nav_ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.ul_li_a {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  color: #1d3130;
+  text-decoration: none;
+ margin-left: 85px;
+}
+
+.phoneNumber {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.phoneNumber span {
+  margin-right: 35px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d3130;
+}
+
+.buy {
+  width: 16px;
+  height: 16px;
+}
+
+.number {
+  margin-left: 8px;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff583e;
+}

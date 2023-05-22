@@ -1,0 +1,129 @@
+.new_products {
+  margin-top: 90px;
+}
+
+.new_products_title {
+  position: absolute;
+  left: 150px;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  color: #254f4c;
+}
+
+.new_products_outher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.new_products_list {
+  display: flex;
+  list-style: none;
+}
+
+.new_products_item {
+  margin-left: 50px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  color: #1d3130;
+}
+
+.new_products_item:hover {
+  color: #ff583e;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid #ff583e;
+}
+
+.new_products_card_outher {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 0 0;
+}
+
+.new_products_card {
+  margin: 30px;
+  position: relative;
+  width: 264px;
+  height: 348.13px;
+  background: #2b4241;
+  border-radius: 40px;
+}
+
+.new_products_card_img {
+  position: absolute;
+  width: 180px; 
+  left: 35px;
+  top: -50px;
+}
+
+.new_products_subTitle {
+  margin: 120px 0 0 0;
+  font-family: inherit;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.new_products_card_text {
+  margin: 0 0 0 13px;
+  width: 231px;
+  height: 88.54px;
+  font-family: inherit;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.new_products_card_price {
+  margin: 0 0 0 100px;
+  font-family: inherit;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.new_products_count {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.quantity {
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 0 10px;
+}
+
+.btn_subtract,
+.btn_add {
+  background-color: transparent;
+  border: none;
+  color: #ff583e;
+  font-size: 30px;
+}
+
+.new_products_input {
+  width: 200px;
+  height: 48.3px;
+  background: #ff583e;
+  border-radius: 40px;
+  border-style: none;
+  margin: 10px 0 0 30px;
+  cursor: pointer;
+  text-align: center;
+}

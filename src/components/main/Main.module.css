@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 112px;
+  align-items: center;
+}
+
+.main_title {
+  width: 403px;
+  height: 127px;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 36px;
+  color: #254f4c;
+  margin-bottom: 16px;
+}
+
+.main_sub_title {
+  width: 416px;
+  height: 48px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d3130;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.main_input {
+  width: 216px;
+  height: 49px;
+  left: 200px;
+  top: 415px;
+  background: #ff583e;
+  border-radius: 100px;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.burger_img {
+  width: 659px;
+  height: 455px;
+}

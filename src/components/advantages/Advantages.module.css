@@ -1,0 +1,39 @@
+.advantages_title {
+    margin: 40px 0 40px 0;
+    font-family: inherit;
+    font-size: 20px;
+    color: #254f4c;
+  }
+  
+  .advantages_content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .advantages_item {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .advantages_inner_title {
+    font-family: inherit;
+    font-size: 20px;
+    color: #254f4c;
+    margin: 18px 0 8px 0;
+  }
+  
+  .advantages_img {
+    width: 88px;
+    height: 88px;
+    left: 308px;
+    top: 2360px;
+  }
+  
+  .advantages_text {
+    width: 256px;
+    height: 48px;
+    font-family: inherit;
+    font-size: 14px;
+    text-align: center;
+    color: #1d3130;
+  }
